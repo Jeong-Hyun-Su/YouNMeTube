@@ -28,13 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.tb_link = new System.Windows.Forms.TextBox();
+            this.bt_linkOk = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // tb_link
+            // 
+            this.tb_link.Location = new System.Drawing.Point(52, 60);
+            this.tb_link.Name = "tb_link";
+            this.tb_link.Size = new System.Drawing.Size(347, 28);
+            this.tb_link.TabIndex = 0;
+            // 
+            // bt_linkOk
+            // 
+            this.bt_linkOk.Location = new System.Drawing.Point(417, 56);
+            this.bt_linkOk.Name = "bt_linkOk";
+            this.bt_linkOk.Size = new System.Drawing.Size(84, 33);
+            this.bt_linkOk.TabIndex = 1;
+            this.bt_linkOk.Text = "OK";
+            this.bt_linkOk.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(570, 450);
+            this.Controls.Add(this.bt_linkOk);
+            this.Controls.Add(this.tb_link);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox tb_link;
+        private System.Windows.Forms.Button bt_linkOk;
     }
 }
 

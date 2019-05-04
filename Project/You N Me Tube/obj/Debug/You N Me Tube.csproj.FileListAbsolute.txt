@@ -1,0 +1,10 @@
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.exe.config
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.exe
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csprojAssemblyReference.cache
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.Form1.resources
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.Properties.Resources.resources
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.GenerateResource.cache
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.CoreCompileInputs.cache
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.exe
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.pdb
