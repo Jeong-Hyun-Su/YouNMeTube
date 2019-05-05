@@ -2,9 +2,27 @@ D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\You N 
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.exe
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.pdb
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csprojAssemblyReference.cache
-D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.Form1.resources
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.Properties.Resources.resources
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.GenerateResource.cache
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.CoreCompileInputs.cache
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.exe
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.Auth.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.Core.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.PlatformServices.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.YouTube.v3.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.xml
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.Auth.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.Auth.xml
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.Core.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.Core.xml
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.YouTube.v3.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Google.Apis.YouTube.v3.xml
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.Tube.resources
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.CopyComplete
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\Debug\YoutubeSearch.dll
