@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace You_N_Me_Tube
 {
-    public partial class Form1 : Form
+    public partial class Search : Form
     {
-        public Form1()
+        public Search()
         {
             InitializeComponent();
+        }
+
+        private void btn_Close_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
