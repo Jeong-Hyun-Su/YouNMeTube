@@ -29,31 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.tb_Search = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tube));
             this.bt_SearchOk = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.thumbnailDataGridViewImageColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.authorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.urlDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lstBox = new System.Windows.Forms.ListBox();
+            this.tb_Search = new System.Windows.Forms.TextBox();
+            this.ShockWave = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.videoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ShockWave)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.videoBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // tb_Search
-            // 
-            this.tb_Search.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb_Search.Location = new System.Drawing.Point(21, 56);
-            this.tb_Search.Name = "tb_Search";
-            this.tb_Search.Size = new System.Drawing.Size(910, 28);
-            this.tb_Search.TabIndex = 0;
             // 
             // bt_SearchOk
             // 
             this.bt_SearchOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bt_SearchOk.Location = new System.Drawing.Point(937, 56);
+            this.bt_SearchOk.Location = new System.Drawing.Point(489, 21);
             this.bt_SearchOk.Name = "bt_SearchOk";
             this.bt_SearchOk.Size = new System.Drawing.Size(84, 33);
             this.bt_SearchOk.TabIndex = 1;
@@ -61,51 +50,38 @@
             this.bt_SearchOk.UseVisualStyleBackColor = true;
             this.bt_SearchOk.Click += new System.EventHandler(this.bt_SearchOk_Click);
             // 
-            // dataGridView1
+            // lstBox
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lstBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lstBox.FormattingEnabled = true;
+            this.lstBox.ItemHeight = 18;
+            this.lstBox.Location = new System.Drawing.Point(12, 69);
+            this.lstBox.Name = "lstBox";
+            this.lstBox.Size = new System.Drawing.Size(561, 202);
+            this.lstBox.TabIndex = 2;
+            this.lstBox.SelectedIndexChanged += new System.EventHandler(this.lstBox_SelectedIndexChanged);
+            // 
+            // tb_Search
+            // 
+            this.tb_Search.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tb_Search.Location = new System.Drawing.Point(12, 21);
+            this.tb_Search.Name = "tb_Search";
+            this.tb_Search.Size = new System.Drawing.Size(471, 28);
+            this.tb_Search.TabIndex = 3;
+            // 
+            // ShockWave
+            // 
+            this.ShockWave.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.thumbnailDataGridViewImageColumn,
-            this.titleDataGridViewTextBoxColumn,
-            this.authorDataGridViewTextBoxColumn,
-            this.urlDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.videoBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 109);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 30;
-            this.dataGridView1.Size = new System.Drawing.Size(1000, 523);
-            this.dataGridView1.TabIndex = 2;
-            // 
-            // thumbnailDataGridViewImageColumn
-            // 
-            this.thumbnailDataGridViewImageColumn.DataPropertyName = "Thumbnail";
-            this.thumbnailDataGridViewImageColumn.HeaderText = "Thumbnail";
-            this.thumbnailDataGridViewImageColumn.Name = "thumbnailDataGridViewImageColumn";
-            // 
-            // titleDataGridViewTextBoxColumn
-            // 
-            this.titleDataGridViewTextBoxColumn.DataPropertyName = "Title";
-            this.titleDataGridViewTextBoxColumn.HeaderText = "Title";
-            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
-            // 
-            // authorDataGridViewTextBoxColumn
-            // 
-            this.authorDataGridViewTextBoxColumn.DataPropertyName = "Author";
-            this.authorDataGridViewTextBoxColumn.HeaderText = "Author";
-            this.authorDataGridViewTextBoxColumn.Name = "authorDataGridViewTextBoxColumn";
-            // 
-            // urlDataGridViewTextBoxColumn
-            // 
-            this.urlDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.urlDataGridViewTextBoxColumn.DataPropertyName = "Url";
-            this.urlDataGridViewTextBoxColumn.HeaderText = "Url";
-            this.urlDataGridViewTextBoxColumn.Name = "urlDataGridViewTextBoxColumn";
-            this.urlDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.ShockWave.Enabled = true;
+            this.ShockWave.Location = new System.Drawing.Point(12, 277);
+            this.ShockWave.Name = "ShockWave";
+            this.ShockWave.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("ShockWave.OcxState")));
+            this.ShockWave.Size = new System.Drawing.Size(564, 355);
+            this.ShockWave.TabIndex = 4;
             // 
             // videoBindingSource
             // 
@@ -115,15 +91,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1050, 644);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.bt_SearchOk);
+            this.ClientSize = new System.Drawing.Size(594, 644);
+            this.Controls.Add(this.ShockWave);
             this.Controls.Add(this.tb_Search);
+            this.Controls.Add(this.lstBox);
+            this.Controls.Add(this.bt_SearchOk);
             this.Name = "Tube";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Youtube Search";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ShockWave)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.videoBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -131,15 +108,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox tb_Search;
         private System.Windows.Forms.Button bt_SearchOk;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource videoBindingSource;
-        private System.Windows.Forms.DataGridViewImageColumn thumbnailDataGridViewImageColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn authorDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn urlDataGridViewTextBoxColumn;
+        private System.Windows.Forms.ListBox lstBox;
+        private System.Windows.Forms.TextBox tb_Search;
+        private AxShockwaveFlashObjects.AxShockwaveFlash ShockWave;
     }
 }
 
