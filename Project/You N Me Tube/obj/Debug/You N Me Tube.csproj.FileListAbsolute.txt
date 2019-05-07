@@ -1,0 +1,17 @@
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.exe.config
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.exe
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\bin\Debug\You N Me Tube.pdb
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csprojAssemblyReference.cache
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.Properties.Resources.resources
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.GenerateResource.cache
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.CoreCompileInputs.cache
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.exe
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.pdb
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You N Me Tube.csproj.ResolveComReference.cache
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.MusicPlayer.resources
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.VideoPlayer.resources
+C:\Users\dncks\Documents\GitHub\YouNMeTube\Project\You N Me Tube\obj\Debug\You_N_Me_Tube.Search.resources
