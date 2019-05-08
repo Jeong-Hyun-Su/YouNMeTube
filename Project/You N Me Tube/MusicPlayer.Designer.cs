@@ -241,6 +241,7 @@
             // 
             // m_notify
             // 
+            this.m_notify.ContextMenuStrip = this.contextMenuStrip1;
             this.m_notify.Icon = ((System.Drawing.Icon)(resources.GetObject("m_notify.Icon")));
             this.m_notify.Text = "notifyIcon1";
             this.m_notify.DoubleClick += new System.EventHandler(this.m_notify_DoubleClick);
@@ -251,7 +252,7 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.종료ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(109, 28);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 56);
             // 
             // 종료ToolStripMenuItem
             // 

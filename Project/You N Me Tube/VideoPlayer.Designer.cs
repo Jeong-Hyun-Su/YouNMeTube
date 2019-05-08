@@ -83,6 +83,7 @@
             this.btn_Minimize.TabIndex = 1;
             this.btn_Minimize.Text = "-";
             this.btn_Minimize.UseVisualStyleBackColor = true;
+            this.btn_Minimize.Click += new System.EventHandler(this.btn_Minimize_Click);
             // 
             // btn_Close
             // 
@@ -213,8 +214,10 @@
             // 
             // m_notify
             // 
+            this.m_notify.ContextMenuStrip = this.contextMenuStrip1;
             this.m_notify.Icon = ((System.Drawing.Icon)(resources.GetObject("m_notify.Icon")));
             this.m_notify.Text = "notifyIcon1";
+            this.m_notify.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.m_notify_MouseDoubleClick);
             // 
             // contextMenuStrip1
             // 
@@ -229,6 +232,7 @@
             this.종료ToolStripMenuItem.Name = "종료ToolStripMenuItem";
             this.종료ToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.종료ToolStripMenuItem.Text = "종료";
+            this.종료ToolStripMenuItem.Click += new System.EventHandler(this.종료ToolStripMenuItem_Click);
             // 
             // VideoPlayer
             // 
@@ -251,6 +255,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.VideoPlayer_Load);
+            this.Resize += new System.EventHandler(this.VideoPlayer_Resize);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();

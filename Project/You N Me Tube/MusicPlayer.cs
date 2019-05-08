@@ -45,6 +45,9 @@ namespace You_N_Me_Tube
 
         private void btn_Minimize_Click(object sender, EventArgs e)
         {
+            m_notify.Visible = true;
+            this.WindowState = FormWindowState.Minimized;
+            this.Hide();
 
         }
 
