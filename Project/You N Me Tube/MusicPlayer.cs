@@ -21,5 +21,10 @@ namespace You_N_Me_Tube
         {
             Close();
         }
+
+        private void MusicPlayer_Resize(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
