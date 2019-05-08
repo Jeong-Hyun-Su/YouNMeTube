@@ -32,5 +32,10 @@ namespace You_N_Me_Tube
             Search search = new Search();
             search.Show();
         }
+
+        private void VideoPlayer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
