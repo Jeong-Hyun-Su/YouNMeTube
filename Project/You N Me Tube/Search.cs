@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using CefSharp;
+using CefSharp.WinForms;
 
 namespace You_N_Me_Tube
 {
     public partial class Search : Form
     {
+        ChromiumWebBrowser browser;
         private Point mousePoint;
 
         public Search()
@@ -35,7 +37,7 @@ namespace You_N_Me_Tube
                     this.Top - (mousePoint.Y - e.Y));
             }
         }
-
+       
 
         private void btn_Close_Click(object sender, EventArgs e)
         {
