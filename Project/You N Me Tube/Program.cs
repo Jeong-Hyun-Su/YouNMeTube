@@ -16,7 +16,9 @@ namespace You_N_Me_Tube
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Search());
+            //Application.Run(new VideoPlayer());
+            (new VideoPlayer()).Show();
+            Application.Run();
         }
     }
 }

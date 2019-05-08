@@ -19,7 +19,18 @@ namespace You_N_Me_Tube
 
         private void btn_Close_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
+        }
+
+        private void btn_ChangeToVideo_Click(object sender, EventArgs e)
+        {
+            (new VideoPlayer()).Show(); this.Close();
+        }
+
+        private void btn_Search_Click(object sender, EventArgs e)
+        {
+            Search search = new Search();
+            search.Show();
         }
     }
 }
