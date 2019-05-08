@@ -1,0 +1,38 @@
+[0509/001100.446:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001100.452:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001107.588:INFO:CONSOLE(46)] "<link rel=preload> must have a valid `as` value", source: https://www.youtube.com/watch?time_continue=160&v=8Hc43g_QbUE (46)
+[0509/001107.696:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001107.703:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001107.715:INFO:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.", source:  (0)
+[0509/001108.784:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 57
+[0509/001111.901:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001111.910:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001117.609:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001117.625:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001122.300:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001122.395:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001128.841:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001128.847:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001144.200:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001144.217:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001259.910:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001259.927:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001449.968:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001449.972:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001811.494:INFO:CONSOLE(46)] "<link rel=preload> must have a valid `as` value", source: https://www.youtube.com/watch?v=TnoiQKI?aut (46)
+[0509/001811.608:INFO:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.", source:  (0)
+[0509/001812.484:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001813.068:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/001813.723:INFO:CONSOLE(15)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.youtube.com/yts/jsbin/network-vfl3EpVxj/network.js (15)
+[0509/001813.768:INFO:CONSOLE(2)] "<link rel=preload> must have a valid `as` value", source: https://www.youtube.com/yts/jsbin/desktop_polymer_sel_auto_svg_watch_v2-vflGVdTLu/desktop_polymer_sel_auto_svg_watch_v2.js (2)
+[0509/001816.772:INFO:CONSOLE(0)] "The resource https://r2---sn-ucgv5q-bh2z.googlevideo.com/generate_204?conn2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source:  (0)
+[0509/001816.772:INFO:CONSOLE(0)] "The resource https://r2---sn-ucgv5q-bh2z.googlevideo.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source:  (0)
+[0509/002132.379:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/002132.394:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/002153.275:INFO:CONSOLE(46)] "<link rel=preload> must have a valid `as` value", source: https://www.youtube.com/watch?v=tiLxrV9tLwY (46)
+[0509/002153.804:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/002153.807:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0509/002153.837:INFO:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.", source:  (0)
+[0509/002155.947:INFO:CONSOLE(15)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.youtube.com/yts/jsbin/network-vfl3EpVxj/network.js (15)
+[0509/002158.524:INFO:CONSOLE(0)] "The resource https://r8---sn-ucgv5q-bh2z.googlevideo.com/generate_204?conn2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source:  (0)
+[0509/002158.524:INFO:CONSOLE(0)] "The resource https://r8---sn-ucgv5q-bh2z.googlevideo.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source:  (0)

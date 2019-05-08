@@ -34,9 +34,9 @@
             this.btn_Close = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_Search = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tb_Search = new System.Windows.Forms.TextBox();
+            this.lstBox = new System.Windows.Forms.ListBox();
+            this.pn_video = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,11 +47,12 @@
             this.panel1.Controls.Add(this.btn_Close);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btn_Search);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.tb_Search);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1093, 84);
+            this.panel1.Size = new System.Drawing.Size(1366, 101);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_MouseMove);
@@ -59,9 +60,10 @@
             // btn_Minimize
             // 
             this.btn_Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Minimize.Location = new System.Drawing.Point(1038, 3);
+            this.btn_Minimize.Location = new System.Drawing.Point(1298, 4);
+            this.btn_Minimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Minimize.Name = "btn_Minimize";
-            this.btn_Minimize.Size = new System.Drawing.Size(23, 23);
+            this.btn_Minimize.Size = new System.Drawing.Size(29, 28);
             this.btn_Minimize.TabIndex = 4;
             this.btn_Minimize.Text = "-";
             this.btn_Minimize.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             // btn_Close
             // 
             this.btn_Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Close.Location = new System.Drawing.Point(1067, 3);
+            this.btn_Close.Location = new System.Drawing.Point(1334, 4);
+            this.btn_Close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Close.Name = "btn_Close";
-            this.btn_Close.Size = new System.Drawing.Size(23, 23);
+            this.btn_Close.Size = new System.Drawing.Size(29, 28);
             this.btn_Close.TabIndex = 4;
             this.btn_Close.Text = "X";
             this.btn_Close.UseVisualStyleBackColor = true;
@@ -82,9 +85,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(7, 39);
+            this.label1.Location = new System.Drawing.Point(9, 47);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 24);
+            this.label1.Size = new System.Drawing.Size(187, 28);
             this.label1.TabIndex = 3;
             this.label1.Text = "YouNMeTube";
             // 
@@ -96,54 +100,60 @@
             this.btn_Search.FlatAppearance.BorderSize = 0;
             this.btn_Search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Search.Image = ((System.Drawing.Image)(resources.GetObject("btn_Search.Image")));
-            this.btn_Search.Location = new System.Drawing.Point(983, 34);
+            this.btn_Search.Location = new System.Drawing.Point(1229, 41);
+            this.btn_Search.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(36, 37);
+            this.btn_Search.Size = new System.Drawing.Size(45, 44);
             this.btn_Search.TabIndex = 2;
             this.btn_Search.UseVisualStyleBackColor = false;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
-            // textBox1
+            // tb_Search
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(161, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(861, 39);
-            this.textBox1.TabIndex = 1;
+            this.tb_Search.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tb_Search.Font = new System.Drawing.Font("굴림", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.tb_Search.Location = new System.Drawing.Point(201, 40);
+            this.tb_Search.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_Search.Name = "tb_Search";
+            this.tb_Search.Size = new System.Drawing.Size(1076, 45);
+            this.tb_Search.TabIndex = 1;
             // 
-            // listBox1
+            // lstBox
             // 
-            this.listBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(12, 101);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.ScrollAlwaysVisible = true;
-            this.listBox1.Size = new System.Drawing.Size(448, 439);
-            this.listBox1.TabIndex = 1;
+            this.lstBox.BackColor = System.Drawing.SystemColors.Control;
+            this.lstBox.FormattingEnabled = true;
+            this.lstBox.ItemHeight = 18;
+            this.lstBox.Location = new System.Drawing.Point(15, 121);
+            this.lstBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstBox.Name = "lstBox";
+            this.lstBox.ScrollAlwaysVisible = true;
+            this.lstBox.Size = new System.Drawing.Size(559, 526);
+            this.lstBox.TabIndex = 1;
+            this.lstBox.SelectedIndexChanged += new System.EventHandler(this.lstBox_SelectedIndexChanged);
             // 
-            // groupBox1
+            // pn_video
             // 
-            this.groupBox1.Location = new System.Drawing.Point(466, 90);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(615, 450);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
+            this.pn_video.Location = new System.Drawing.Point(596, 121);
+            this.pn_video.Name = "pn_video";
+            this.pn_video.Size = new System.Drawing.Size(758, 526);
+            this.pn_video.TabIndex = 2;
             // 
             // Search
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1093, 547);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.listBox1);
+            this.ClientSize = new System.Drawing.Size(1366, 656);
+            this.Controls.Add(this.pn_video);
+            this.Controls.Add(this.lstBox);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Search";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Search_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -154,12 +164,12 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_Search;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox tb_Search;
+        private System.Windows.Forms.ListBox lstBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_Close;
         private System.Windows.Forms.Button btn_Minimize;
+        private System.Windows.Forms.Panel pn_video;
     }
 }
 

@@ -104,3 +104,10 @@ D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Go
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Newtonsoft.Json.xml
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\obj\x64\Debug\You N Me Tube.csproj.CopyComplete
 D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\YoutubeSearch.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Google.Apis.Auth.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Google.Apis.YouTube.v3.dll
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Google.Apis.Auth.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Google.Apis.Auth.xml
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Google.Apis.YouTube.v3.pdb
+D:\Programming\C#\프로젝트\YouNMeTube\Project\You N Me Tube\bin\x64\Debug\Google.Apis.YouTube.v3.xml
