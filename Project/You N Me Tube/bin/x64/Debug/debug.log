@@ -36,3 +36,18 @@
 [0509/002155.947:INFO:CONSOLE(15)] "chrome.loadTimes() is deprecated, instead use standardized API: nextHopProtocol in Navigation Timing 2. https://www.chromestatus.com/features/5637885046816768.", source: https://www.youtube.com/yts/jsbin/network-vfl3EpVxj/network.js (15)
 [0509/002158.524:INFO:CONSOLE(0)] "The resource https://r8---sn-ucgv5q-bh2z.googlevideo.com/generate_204?conn2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source:  (0)
 [0509/002158.524:INFO:CONSOLE(0)] "The resource https://r8---sn-ucgv5q-bh2z.googlevideo.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source:  (0)
+[0512/111402.821:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111402.827:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111411.649:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111411.661:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111420.747:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111420.787:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111443.235:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111443.271:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111452.521:WARNING:spdy_session.cc(3180)] Received HEADERS for invalid stream 79
+[0512/111453.310:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/111453.340:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/112451.205:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/112451.279:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/112457.036:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
+[0512/112457.052:WARNING:url_request_job_manager.cc(91)] Failed to map: chrome-extension://invalid/
