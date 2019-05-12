@@ -41,5 +41,10 @@ namespace You_N_Me_Tube
         {
             Close();
         }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
